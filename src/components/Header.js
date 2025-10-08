@@ -9,17 +9,17 @@ function Header()
 
     return(
         <header className="bg-primary text-white py-5">
-            <div className="container">
-                <div className="row aling-items-center">
+                <div className="container">
+                    <div className="row aling-items-center">
                     {}
-                    <div className="col-md-3 text-center-3 mb-md-0">
+                        <div className="col-md-3 text-center-3 mb-md-0">
                         <img 
                             src={miFoto}
                             alt={`Foto de ${miNombre}`}
                             className="rounded-circle img-fluid border-white border-3"
                             style={{maxWidth:'150px'}}
                         />
-                    </div>
+                        </div>
                     <div className="col-md-9">
                             <h1 className="display-4 fw-bold mb-2">
                                 {miNombre}

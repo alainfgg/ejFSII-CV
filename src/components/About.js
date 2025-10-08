@@ -2,14 +2,12 @@ import React from "react";
 
 function About() {
     return (
-        <div>
+        <div className="container">
             <h1>Acerca de mí</h1>
-            <p>
+            <p className="text-muted mb-2">
                 Soy un desarrollador apasionado por la tecnología.
             </p>
-            <p>
-                era.
-            </p>
+    
         </div>
     );
 }

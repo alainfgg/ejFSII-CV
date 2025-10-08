@@ -29,7 +29,7 @@ function Experience() {
     
 
     return (
-        <div>
+        <div className="container">
             <h1>Experiencia Profesional</h1>
             <ul>
                 {experiencia.map((trabajo, index) => (
@@ -38,13 +38,7 @@ function Experience() {
                         <h4 className="h6 text-primary mb-1">Empresa: {trabajo.empresa}</h4>
                         <p className="text-muted mb-2">Años de experiencia: {trabajo.experiencia}</p>
 
-                        <ul className="list-unstyled">
-                            {trabajo.responsanilidades.map((responsanilidad, idx) => (
-                                <li key = {idx} className="mb-1">
-                                    {responsanilidad}
-                                </li>
-                            ))}
-                        </ul>
+                    
 
                     </div>
                 ))}

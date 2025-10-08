@@ -9,10 +9,12 @@ import Education from './components/Education';
 function App() 
     {
       return(
-      
+      <>
         <Header/>,
-        <Education/>
- 
+        <About/>,
+        <Experience/>,
+        <Education/> 
+      </>
       )
     }
 
